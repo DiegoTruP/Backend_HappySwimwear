@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+@CrossOrigin("*")
 @Controller
 @RequestMapping(path="/venta")
 public class VentaController {
