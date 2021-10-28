@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.awt.*;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping(path="/tallas")
 
