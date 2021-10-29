@@ -21,11 +21,12 @@ public class Product {
     public Product() {
     }
 
-    public Product(Integer id_producto, String nombre_producto, double precio, String descripcion) {
+    public Product(Integer id_producto, String nombre_producto, double precio, String descripcion, String imagen) {
         this.id_producto = id_producto;
         this.nombre_producto = nombre_producto;
         this.precio = precio;
         this.descripcion = descripcion;
+        this.imagen = imagen;
     }
 
 
