@@ -40,6 +40,7 @@ public class ProductController {
         nuevo.setDescripcion(product.getDescripcion());
         nuevo.setPrecio(product.getPrecio());
         nuevo.setId_categoria(product.getId_categoria());
+         nuevo.setImagen(product.getImagen());
         productRepository.save(nuevo);
         return "Producto "+productRepository.findById(id)+" Se ha actualizado al usuario";
     }
