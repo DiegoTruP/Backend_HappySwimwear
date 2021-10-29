@@ -69,5 +69,11 @@ public class Product {
         this.id_categoria = id_categoria;
     }
 
+    public String getImagen() {
+        return imagen;
+    }
 
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
 }
