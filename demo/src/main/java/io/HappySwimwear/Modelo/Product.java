@@ -16,6 +16,8 @@ public class Product {
     private double precio;
     private String descripcion;
     private Integer id_categoria;
+     private String imagen;
+
 
 
     public Product() {
